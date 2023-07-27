@@ -1,0 +1,56 @@
+mysql> source \MySQL\A2T2 SQLSTMTS.sql;
+ERROR: 
+Unknown command '\M'.
+ERROR: 
+Unknown command '\A'.
++-------------+------------+------------+--------------------------------+----------+
+| employee_id | first_name | last_name  | job_title                      | email    |
++-------------+------------+------------+--------------------------------+----------+
+|         114 | Den        | Raphaely   | Purchasing Manager             | DRAPHEAL |
+|         115 | Alexander  | Khoo       | Purchasing Clerk               | AKHOO    |
+|         116 | Shelli     | Baida      | Purchasing Clerk               | SBAIDA   |
+|         117 | Sigal      | Tobias     | Purchasing Clerk               | STOBIAS  |
+|         118 | Guy        | Himuro     | Purchasing Clerk               | GHIMURO  |
+|         119 | Karen      | Colmenares | Purchasing Clerk               | KCOLMENA |
+|         201 | Michael    | Hartstein  | Marketing Manager              | MHARTSTE |
+|         202 | Pat        | Fay        | Marketing Representative       | PFAY     |
+|         203 | Susan      | Mavris     | Human Resources Representative | SMAVRIS  |
++-------------+------------+------------+--------------------------------+----------+
+9 rows in set (0.01 sec)
+
++-------------+------------+-----------+-------------------------------+---------------+
+| employee_id | first_name | last_name | job_title                     | supervisor_id |
++-------------+------------+-----------+-------------------------------+---------------+
+|         102 | Lex        | De Haan   | Administration Vice President |           100 |
+|         201 | Michael    | Hartstein | Marketing Manager             |           100 |
+|         205 | Shelley    | Higgins   | Accounting Manager            |           101 |
++-------------+------------+-----------+-------------------------------+---------------+
+3 rows in set (0.00 sec)
+
++-------------+------------+-----------+------------+----------+------------------------+
+| employee_id | first_name | last_name | hire_date  | salary   | COUNT(m.supervisor_id) |
++-------------+------------+-----------+------------+----------+------------------------+
+|         100 | Steven     | King      | 1987-06-17 | 24000.00 |                     14 |
+|         120 | Matthew    | Weiss     | 1996-07-18 |  8000.00 |                      8 |
+|         121 | Adam       | Fripp     | 1997-04-10 |  8200.00 |                      8 |
+|         122 | Payam      | Kaufling  | 1995-05-01 |  7900.00 |                      8 |
+|         123 | Shanta     | Vollman   | 1997-10-10 |  6500.00 |                      8 |
+|         124 | Kevin      | Mourgos   | 1999-11-16 |  5800.00 |                      8 |
++-------------+------------+-----------+------------+----------+------------------------+
+6 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> notee

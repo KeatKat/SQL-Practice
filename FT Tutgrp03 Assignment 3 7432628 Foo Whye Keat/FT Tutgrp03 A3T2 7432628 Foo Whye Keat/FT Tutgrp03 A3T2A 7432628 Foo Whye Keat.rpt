@@ -1,0 +1,13 @@
+mysql> source D:\SCHOOL\Q4 OCT-DEC\CSIT 115\Assignment\Ass3\Task 2\Part A.sql
++-----------------------------------------------------------------------------------------------------------------+
+| Verification                                                                                                    |
++-----------------------------------------------------------------------------------------------------------------+
+| A purchase with the ID of 50010 is an online purchase of type 1 and also a walkin purchase of location Jurong   |
+| A purchase with the ID of 50011 is an online purchase of type 1 and also a walkin purchase of location Clementi |
+| A purchase with the ID of 50017 is an online purchase of type 2 and also a walkin purchase of location Clementi |
+| A purchase with the ID of 50018 is an online purchase of type 1 and also a walkin purchase of location Jurong   |
+| A purchase with the ID of 50019 is an online purchase of type 2 and also a walkin purchase of location Clementi |
++-----------------------------------------------------------------------------------------------------------------+
+5 rows in set (0.00 sec)
+
+mysql> notee

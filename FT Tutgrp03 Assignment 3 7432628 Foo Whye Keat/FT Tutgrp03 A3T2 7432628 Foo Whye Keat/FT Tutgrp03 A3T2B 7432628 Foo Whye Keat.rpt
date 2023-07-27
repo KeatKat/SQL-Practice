@@ -1,0 +1,147 @@
+mysql> source D:\SCHOOL\Q4 OCT-DEC\CSIT 115\Assignment\Ass3\Task 2\Part B.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
++---------------------+
+| Description         |
++---------------------+
+| Assignment 3 is fun |
++---------------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
++--------+----------------------+-------+
+| BookID | Title                | Price |
++--------+----------------------+-------+
+| 20099  | Taipei 101           | 20.99 |
+| 20100  | Bangkok 101          | 20.99 |
+| 20102  | Indonesia Travel     | 25.99 |
+| 20103  | Vietnam Travel       | 20.99 |
+| 20105  | Travel to Europe     | 25.88 |
+| 20106  | Travel to China      | 22.88 |
+| 20107  | Travel to Singapore  | 20.88 |
+| 20108  | Myanmar Travel       | 21.88 |
+| 20109  | Travel to Japan      | 20.88 |
+| 20110  | Taipei Summer        | 20.88 |
+| 20111  | Bangkok Wealther     | 20.88 |
+| 20112  | Najib influence      | 29.88 |
+| 20200  | Java for Beginner    | 30.00 |
+| 20201  | UML Bible            | 60.00 |
+| 20202  | SQL Make Simple      | 40.00 |
+| 20203  | MySQL Easy           | 45.00 |
+| 20204  | Microsoft SQL Server | 59.00 |
+| 20205  | Database Fundamental | 35.00 |
+| 20206  | ASP.NET Introduction | 30.00 |
+| 20208  | Network Security     | 50.00 |
+| 20209  | IOT and Big Data     | 30.00 |
+| 20210  | 4G Singapore         | 25.88 |
+| 20211  | Rich and Poor        | 20.88 |
++--------+----------------------+-------+
+23 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++----------------------------+------------------------------+-----------+-----------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| event_time                 | user_host                    | thread_id | server_id | command_type | argument                                                                                                                                                                                             |
++----------------------------+------------------------------+-----------+-----------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2021-11-19 14:45:05.761818 | root[root] @ localhost [::1] |        11 |         1 | Query        |  |
+| 2021-11-19 14:45:05.794245 | root[root] @ localhost [::1] |        11 |         1 | Query        |                            |
+| 2021-11-19 14:45:05.897669 | root[root] @ localhost [::1] |        11 |         1 | Query        |                                                                                                          |
+| 2021-11-19 14:45:05.996607 | root[root] @ localhost [::1] |        11 |         1 | Query        |                                                                                                                                                                          |
+| 2021-11-19 14:45:06.020021 | root[root] @ localhost [::1] |        11 |         1 | Query        |                                                                                                                                                                        |
++----------------------------+------------------------------+-----------+-----------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+5 rows in set (0.00 sec)
+
++----------------------------+------------------------------+-----------+-----------+--------------+------------------------------------------------------------------------------------------------------------------+-----+
+| event_time                 | user_host                    | thread_id | server_id | command_type | argument                                                                                                         | CNT |
++----------------------------+------------------------------+-----------+-----------+--------------+------------------------------------------------------------------------------------------------------------------+-----+
+| 2021-11-19 14:45:05.814276 | root[root] @ localhost [::1] |        11 |         1 | Query        |      |  21 |
+| 2021-11-19 14:45:05.851015 | root[root] @ localhost [::1] |        11 |         1 | Query        |  |   6 |
+| 2021-11-19 14:45:05.889132 | root[root] @ localhost [::1] |        11 |         1 | Query        |                  |   3 |
+| 2021-11-19 14:45:05.990808 | root[root] @ localhost [::1] |        11 |         1 | Query        |                                                                                |   2 |
++----------------------------+------------------------------+-----------+-----------+--------------+------------------------------------------------------------------------------------------------------------------+-----+
+4 rows in set (0.01 sec)
+
+mysql> notee

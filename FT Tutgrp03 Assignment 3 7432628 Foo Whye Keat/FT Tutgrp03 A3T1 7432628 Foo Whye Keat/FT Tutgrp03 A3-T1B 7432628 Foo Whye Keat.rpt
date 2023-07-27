@@ -1,0 +1,100 @@
+mysql> source D:\Dumps\wkf866.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (3.39 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 21 rows affected (0.00 sec)
+Records: 21  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> notee
+
+
+mysql> source D:\SCHOOL\Q4 OCT-DEC\CSIT 115\Assignment\Ass3\Task 1\Task 1 B.sql
++--------+------------------+-------+
+| BookID | Title            | Price |
++--------+------------------+-------+
+| 20110  | Taipei Summer    | 20.88 |
+| 20111  | Bangkok Wealther | 20.88 |
+| 20112  | Najib influence  | 29.88 |
+| 20210  | 4G Singapore     | 25.88 |
+| 20211  | Rich and Poor    | 20.88 |
++--------+------------------+-------+
+5 rows in set (0.00 sec)
+
++--------+-----------------+-------+
+| BookID | Title           | Price |
++--------+-----------------+-------+
+| 20101  | Malaysia Travel | 29.99 |
+| 20104  | Travel to USA   | 19.88 |
+| 20207  | Advance C++     | 50.00 |
++--------+-----------------+-------+
+3 rows in set (0.00 sec)
+
++--------+------------------+-------+
+| BookID | Title            | Price |
++--------+------------------+-------+
+| 20110  | Taipei Summer    | 20.88 |
+| 20111  | Bangkok Wealther | 20.88 |
+| 20112  | Najib influence  | 29.88 |
+| 20210  | 4G Singapore     | 25.88 |
+| 20211  | Rich and Poor    | 20.88 |
+| 20101  | Malaysia Travel  | 29.99 |
+| 20104  | Travel to USA    | 19.88 |
+| 20207  | Advance C++      | 50.00 |
+| 20108  | Myanmar Travel   | 21.88 |
+| 20201  | UML Bible        | 60.00 |
+| 20202  | SQL Make Simple  | 40.00 |
++--------+------------------+-------+
+11 rows in set (0.00 sec)
+
+mysql> notee

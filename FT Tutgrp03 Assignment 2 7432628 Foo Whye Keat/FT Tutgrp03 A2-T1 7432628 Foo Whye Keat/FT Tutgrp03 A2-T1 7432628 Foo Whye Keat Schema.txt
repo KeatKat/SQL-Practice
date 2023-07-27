@@ -1,0 +1,29 @@
+SPECIALTY(specialtyNumber, chefpassportnumber, description, ingredients, recipe)
+PRIMARY KEY = (specialtyNumber, chefpassportnumber)
+
+CHEF(chefpassportNumber, culinarycerts, competitionexpr)
+PRIMARY KEY = (chefpassportNumber)
+FOREIGN KEY = (chefpassportNumber) REFERENCES PERSON(passportNumber)
+
+PARTYEVENT(eventID, partysize, cusinePkg, eventdate, eventtime, eventvenue,chefpassportnumber,clientpassportnumber)
+PRIMARY KEY = (eventID)
+FOREIGN KEY1 = (chefpassportnumber) REFERENCES CHEF(chefpassportnumber)
+FOREIGN KEY2 = (clientpassportnumber) REFERENCES CLIENT(clientpassportnumber)
+CANDIDATE KEY1 = (eventdate, eventtime, eventvenue)
+
+PERSON(passportnumber, firstname, last name, DOB, gender, address, telno, email)
+PRIMARY KEY = (passportnumber)
+CANDIDATE KEY1 = (firstName, lastname, DOB)
+
+CLIENT(clientpassportnumber, preferredcuisine, preferredpaymtype, creditcardnumber,
+creditcardtype, issuingbank)
+PRIMARY KEY = (clientpassportnumber)
+FOREIGN KEY = (clientpassportnumber) REFERENCES PERSON(passportnumber)
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+mysql> source D:\SCHOOL\Q4 OCT-DEC\CSIT 115\Assignment\Ass3\Task 1\Task 1 A.sql
+ERROR 1396 (HY000): Operation CREATE USER failed for 'wkf866_1'@'%'
+ERROR 1396 (HY000): Operation CREATE USER failed for 'wkf866_2'@'%'
+ERROR 1396 (HY000): Operation CREATE USER failed for 'wkf866_3'@'%'
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++--------+----------+-------------+-------------+-------------+-------------+-----------+------------+------------+
+| Db     | user     | select_priv | insert_priv | update_priv | delete_priv | drop_priv | grant_priv | alter_priv |
++--------+----------+-------------+-------------+-------------+-------------+-----------+------------+------------+
+| wkf866 | wkf866_1 | Y           | Y           | Y           | Y           | Y         | Y          | Y          |
++--------+----------+-------------+-------------+-------------+-------------+-----------+------------+------------+
+1 row in set (0.00 sec)
+
++--------+----------+------------+--------------------+
+| db     | user     | table_name | table_priv         |
++--------+----------+------------+--------------------+
+| wkf866 | wkf866_2 | author     | Select,Create View |
+| wkf866 | wkf866_2 | book       | Select,Create View |
++--------+----------+------------+--------------------+
+2 rows in set (0.00 sec)
+
++----------+---------------+-------------+
+| user     | max_questions | max_updates |
++----------+---------------+-------------+
+| wkf866_3 |           100 |          10 |
++----------+---------------+-------------+
+1 row in set (0.00 sec)
+
++----------+------------------+
+| user     | password_expired |
++----------+------------------+
+| wkf866_2 | Y                |
++----------+------------------+
+1 row in set (0.00 sec)
+
+mysql> notee

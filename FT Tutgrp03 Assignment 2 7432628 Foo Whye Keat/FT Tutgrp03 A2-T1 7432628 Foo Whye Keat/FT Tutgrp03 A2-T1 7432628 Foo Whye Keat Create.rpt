@@ -1,0 +1,18 @@
+mysql> use assignment2
+Database changed
+mysql> source \MySQL\A2T1 CREATE.sql;
+ERROR: 
+Unknown command '\M'.
+ERROR: 
+Unknown command '\A'.
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> quit
